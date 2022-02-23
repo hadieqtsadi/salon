@@ -1,0 +1,263 @@
+/*  font style start */
+
+@font-face {
+    font-family: yekan;
+    src: url(../font/Yekan.ttf);
+}
+
+@font-face {
+    font-family: junitta;
+    src: url(../font/Junitta.ttf);
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(../font/Vazir-Regular.ttf);
+}
+
+
+/* font style end  */
+
+* {
+    font-family: vazir;
+    box-sizing: border-box;
+}
+
+
+/* header start */
+
+.text-center h4 {
+    font-size: 25px;
+}
+
+.text-header {
+    font-family: junitta;
+    font-size: 30px;
+    color: #78002B;
+}
+
+.text-login {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+
+/* header end */
+
+footer p {
+    font-size: 13px;
+}
+
+
+/* card style start */
+
+label {
+    font-size: 15px;
+}
+
+.text-span {
+    font-size: 15px;
+}
+
+.card-text {
+    margin-bottom: 50px;
+}
+
+.code-mobile {
+    margin-bottom: 40px;
+}
+
+
+/* for code-login page start */
+
+.card-form-seconde {
+    margin-top: 15px;
+    background: #FAFAFA;
+    height: 380px;
+    box-shadow: 0px 10px 18px rgba(138, 138, 138, 0.25);
+    border-radius: 10px;
+}
+
+
+/* for code-login page end */
+
+
+/* for login page start */
+
+.card-form-first {
+    background: #FAFAFA;
+    height: 300px;
+    box-shadow: 0px 10px 18px rgba(138, 138, 138, 0.25);
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+
+/* for login page end */
+
+.btn-form {
+    margin-top: 50px;
+    border: none;
+}
+
+.btn:hover {
+    color: #FAFAFA;
+    background: #E44C83;
+}
+
+.btn-2 {
+    width: 152px;
+    height: 38px;
+    align-items: center;
+    left: 180px;
+    /* button */
+    background: #FFFFFF;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid #FF5290;
+    color: #FF5290;
+}
+
+.btn-2:hover {
+    background: #FF5290;
+    color: white;
+}
+
+hr {
+    border: none;
+}
+
+.card-form-2 {
+    background: #FAFAFA;
+    width: 50rem;
+    box-shadow: 0px 10px 18px rgba(138, 138, 138, 0.25);
+}
+
+.btn {
+    width: 152px;
+    height: 38px;
+    background: #FF5290;
+    /* button */
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 7px 15px rgba(255, 82, 144, 0.7);
+}
+
+a:link {
+    text-decoration: none;
+    color: #FF5290;
+}
+
+.mobile {
+    width: 350px;
+    height: 38px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(141, 141, 141, 0.25);
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-family: yekan;
+}
+
+.navbar-nav .nav-item a {
+    font-size: 25px;
+}
+
+input {
+    font-family: yekan;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border: 1px solid #FF5290;
+    color: #4A4A4A;
+    font-family: yekan;
+}
+
+
+/* card style end */
+
+
+/* footer style start */
+
+.footer {
+    position: absolute;
+    left: 0;
+    top: 700px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* footer style end */
+
+@media only screen and (max-width: 1200px) {
+    .mobile {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .mobile {
+        width: 270px;
+    }
+    .text-center h4 {
+        font-size: 20px;
+    }
+    label {
+        font-size: 13px;
+    }
+    .text-span {
+        font-size: 13px;
+    }
+    footer p {
+        font-size: 11px;
+    }
+    .text-header {
+        font-family: junitta;
+        font-size: 25px;
+        color: #78002B;
+    }
+    .text-login {
+        font-size: 18px;
+    }
+    .text-center h4 {
+        font-size: 18px;
+    }
+    .text-btn {
+        width: 130px;
+    }
+    .mobile {
+        font-size: 15px;
+    }
+    .code-mobile {
+        font-size: 15px;
+    }
+    .btn-2 {
+        width: 130px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 993px) {
+    .img {
+        display: none;
+    }
+}
+
+.text-link {
+    color: #FF5290;
+}
+
+.text-link:hover {
+    color: #E44C83;
+}
+
+@media only screen and (max-width: 390px) {
+    .mobile {
+        width: 180px;
+    }
+    .card-form {
+        width: 90%;
+    }
+}

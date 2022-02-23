@@ -1,0 +1,478 @@
+@font-face {
+    font-family: junitta;
+    src: url(../font/Junitta.ttf);
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(../font/Vazir-Regular.ttf);
+}
+
+* {
+    font-family: Vazir;
+}
+
+
+/* header navbar start */
+
+.logo-large,
+.logo-small {
+    font-family: junitta;
+    font-weight: 400;
+    font-size: 30px;
+    color: #78002B !important;
+}
+
+.navbar ul {
+    padding: 0;
+}
+
+.navbar {
+    background: #FFE6EF;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar li {
+    font-size: 18px;
+}
+
+.navbar li span {
+    /* Rectangle 17 */
+    border: 1px solid #78002B;
+    color: #78002B;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.notif .dropdown-menu {
+    background-color: #FFE6EF;
+}
+
+.notif-sm .dropdown-menu {
+    background-color: #FFE6EF;
+}
+
+.notif-sm .dropdown-menu a {
+    color: #78002B;
+}
+
+.notif-sm .dropdown-menu a:hover {
+    background: #FFE6EF;
+}
+
+.notif .dropdown-menu a {
+    color: #78002B;
+}
+
+.notif .dropdown-menu a:hover {
+    background: #FFE6EF;
+}
+
+@media only screen and (min-width: 768px) {
+    .logo-small {
+        display: block;
+    }
+    .logo-large {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .logo-small {
+        display: none;
+    }
+    .logo-large {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logo-large,
+    .logo-small {
+        font-size: 25px;
+    }
+    .navbar li {
+        font-size: 15px;
+    }
+    .navbar li span {
+        font-size: 13px;
+    }
+    .form-box h3 {
+        font-size: 13px;
+    }
+    .dropdown a {
+        font-size: 15px;
+    }
+    #dropdown-toggle .dropdown-menu a {
+        font-size: 15px;
+    }
+}
+
+
+/* navbar */
+
+@media (min-width: 768px) {
+    .ml-4 {
+        margin-left: 1rem;
+    }
+}
+
+.ml-4 {
+    margin-left: 1rem;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+a {
+    text-decoration: inherit;
+}
+
+.MuiIconButton-label:hover {
+    border: none;
+}
+
+.MuiIconButton-colorPrimary {
+    color: #78002B;
+}
+
+.MuiIconButton-root {
+    flex: 0 0 auto;
+    color: rgba(0, 0, 0, 0.54);
+    padding: 12px;
+    overflow: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 50%;
+}
+
+.MuiButtonBase-root {
+    color: inherit;
+    border: 0;
+    cursor: pointer;
+    margin: 0 0 0 20px;
+    display: inline-flex;
+    outline: 0;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    border-radius: 0;
+    vertical-align: middle;
+    -moz-appearance: none;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+button {
+    -webkit-appearance: button;
+}
+
+button {
+    cursor: pointer;
+    font-weight: 500;
+    outline: none;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+}
+
+button {
+    background-color: transparent;
+    background-image: none;
+}
+
+.MuiIconButton-label {
+    width: 100%;
+    display: flex;
+    align-items: inherit;
+    justify-content: inherit;
+}
+
+.MuiBadge-root {
+    display: inline-flex;
+    position: relative;
+    flex-shrink: 0;
+    vertical-align: middle;
+}
+
+.MuiSvgIcon-root {
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+    color: #78002B;
+}
+
+audio,
+canvas,
+embed,
+iframe,
+img,
+object,
+svg,
+video {
+    display: block;
+}
+
+.MuiBadge-anchorOriginTopRightRectangle {
+    top: 0;
+    left: 0;
+    transform: scale(1) translate(-50%, -50%);
+    transform-origin: 0% 0%;
+}
+
+.MuiBadge-colorError {
+    color: #fff;
+    background-color: #f44336;
+}
+
+.MuiBadge-badge {
+    height: 20px;
+    display: flex;
+    padding: 0 6px;
+    z-index: 1;
+    position: absolute;
+    flex-wrap: wrap;
+    font-size: 0.75rem;
+    min-width: 20px;
+    box-sizing: border-box;
+    transition: transform 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    align-items: center;
+    font-family: iranyekan, Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1;
+    align-content: center;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.MuiTouchRipple-root {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
+    position: absolute;
+    border-radius: inherit;
+    pointer-events: none;
+}
+
+
+/*  navbar*/
+
+
+/* header navbar end */
+
+
+/* transactions */
+
+.transation {
+    padding-top: 50px;
+}
+
+.li-transation {
+    /* لیست تراکنش ها */
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.li-transation h3 {
+    font-size: 18px;
+}
+
+.table {
+    /* Rectangle 60 */
+    border: 1px solid #757575;
+    box-sizing: border-box;
+}
+
+.table .thead {
+    /* Rectangle 61 */
+    position: absolute;
+    width: 1000px;
+    height: 62px;
+    left: 171px;
+    top: 251px;
+}
+
+.table th {
+    /* ردیف */
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 31px;
+    color: #78002B;
+    text-align: center;
+    background: #FFF5F5;
+    border: #757575;
+}
+
+.table td {
+    /* 25 دی 1400 */
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000000;
+}
+
+.table .tr {
+    line-height: 20px;
+}
+
+.bg-gray {
+    background-color: rgba(238, 236, 236, 1);
+}
+
+table,
+thead,
+tr,
+tbody,
+th,
+td {
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+}
+
+.f1 p {
+    margin-top: 200px;
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #424242;
+}
+
+.f1-null {
+    margin-top: 379px;
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #424242;
+}
+
+.f1 span {
+    /* مانا */
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FF5290;
+}
+
+.f2-null {
+    margin-top: 379px;
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #424242;
+}
+
+.f2-null span {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FF5290;
+}
+
+.section p {
+    /* کابر محترم شما هنوز هیچ تراکنشی انجام نداده اید */
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 31px;
+    color: #B30E0E;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 320px) {
+    .table th {
+        font-size: 13px;
+    }
+    .table td {
+        font-size: 11px;
+    }
+}
+
+
+/* end transactions */
